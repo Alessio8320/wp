@@ -1,0 +1,347 @@
+/*
+Theme Name: Moda
+Template: twentynineteen*/
+
+body{
+    color: #543d26;
+    font-size: 20px;
+}
+
+a{
+    color: #45a61c;
+    text-transform: none;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #037003;
+    text-transform: none;
+    text-decoration: none;
+}
+
+
+
+header{
+    padding: 20px;
+    background: #543e27;
+    text-align: center;
+    color: #bbac93;
+    font-size: 40px;
+    line-height: 22px;
+}
+
+
+
+
+/* foto intestazione */
+.reunion {
+    background: url(img/header.jpg);
+    background-size: cover;
+}
+
+.reunion-text {
+    height: 480px;
+}
+
+
+.altezza{
+    height: 90%;
+    text-align: center;
+}
+
+h1{
+    font-size: 35px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+.recruitment{
+    font-size: 35px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+
+
+
+
+
+/* nav */
+#nav-menu{
+    border-bottom: 2px solid #bbac93;
+    padding-bottom: 0px;
+    width: 100%;
+}
+
+#nav-menu ul{
+    width: 100%;
+}
+
+#nav-menu a{
+    border-bottom: 2px solid transparent;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#nav-menu a:hover{
+    border-bottom: 2px solid #bbac93;
+    color: #bbac93;
+}
+
+
+/* stile menu a discesa */
+.dropdown-stilemenu{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background:  #bbac93;
+    border-radius: 0px;
+    margin-top: 5px;
+}
+
+#nav-menu a.dropdown-item:last-child{
+    border-bottom: 0px;
+}
+
+#nav-menu a.dropdown-item{
+    color: #543e27;
+    border-bottom: 1px solid #fff;
+}
+
+#nav-menu a.dropdown-item:hover{
+    color: #45a61c;
+}
+
+#nav-menu a.dropdown-item:hover:before {
+    content: "> ";
+    margin-left: -15px;
+}
+
+.navbar-nav li{
+    text-align: center;
+    flex: 1 1 auto;
+}
+
+/* testo */
+.text{
+    width: 90%;
+    text-align: justify;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+
+
+/* lavoro */
+.lavoro{
+    background: #dbd085;
+    height: 300px;
+    margin-bottom: 40px;   
+}
+
+.lavoro div:first-child{
+    background: url(img/imm1.jpg);
+    background-size: cover;
+}
+
+.lavoro p{
+    margin-left: 15px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.lavoro p:first-child{
+    font-size: 28px;
+    text-transform: uppercase;
+    text-decoration: inherit;
+    margin-top: 30px;
+}
+
+a.green{
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 60px;
+    margin-left: 20%;
+}
+
+/* per le immagini con svg 
+p.green:before {
+    content: "";
+    background: url("img/search.svg") no-repeat;
+    width: 50px;
+    height: 50px;
+    float: left;
+}*/
+
+
+/* second, reverse */
+.reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.reverse > div:first-child{
+    background: url(img/imm2.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+
+/* TEXT centrato servizi */
+#servizi{
+    text-align: center;
+}
+
+#servizi p:first-child{
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: inherit;
+    margin-top: 30px;
+    line-height: 15px;
+}
+
+
+
+.box{
+    text-transform: uppercase;
+    border: 2px solid #e6e6e6;
+
+    color: #dbd085;
+    text-align: center;
+    height: 120px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+
+
+
+/* footer */
+footer .light{
+    background: #d5c5a0;
+    padding: 20px;
+    color: #fff;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+footer .riservata{
+    text-transform: uppercase;
+    font-size: 26px;
+    margin-top: 25px;
+}
+
+footer .login{
+    font-size: 26px;
+    margin-top: 25px;
+}
+
+footer .scurobottom{
+    background: #543e27;
+    color: #fff;
+    font-size: 13px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.social{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+
+/* ADD PER PAGINA CHI SIAMO */
+.reunion-text-small {
+    height: 250px;
+    margin-bottom: 30px;
+}
+
+
+.separatore{
+    border-top: 30px solid #d5c5a0;
+}
+
+.mission{
+    line-height: 24px;
+    font-size: 20px;
+    border-top: 2px;
+    margin-bottom: 10px;
+}
+
+
+/*laterale */
+.menu-laterale{
+    border-right: 4px solid #d5c5a0;
+    padding-right: 0px;
+}
+
+
+
+.menu-laterale a{
+    width: 100%;
+    display: block;
+    text-align: right;
+    color: #543e27;
+    padding: 10px;
+    border: 0px; 
+    border-bottom: 2px solid #d5c5a0;
+    border-radius: 0px;
+}
+
+.menu-laterale a:last-child{
+    border-bottom: 0px solid #d5c5a0;
+}
+
+.menu-laterale a:hover{
+    background: #d5c5a0;
+    color: #45a61c;
+}
+
+
+
+
+/* contenuto*/
+section{
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.img-article{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/*ANNUNCI*/
+.head{
+    background-color: #b3ac9d;
+}
+
+.head-text{height: 480px;}
+
+.testa{
+    height: 90%;
+    text-align: center;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.icone{
+    background-color:  #d5c5a0;;
+}
+
+.cards{
+    margin-top: 50px;
+}
